@@ -150,5 +150,3 @@ Toastr::error('We got an error! And its marked as important')->with(['important'
 Toastr::error('We got an error!', 'But its not that important')->with(['important' => false])->push();
 
 ```
-
-
