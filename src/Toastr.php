@@ -35,6 +35,18 @@ class Toastr {
     }
 
     /**
+     * Custom error methods
+     * 
+     * @param  [type] $name      [description]
+     * @param  [type] $arguments [description]
+     * @return [type]            [description]
+     */
+    public function __call($name, $arguments)
+    {
+        return $this->alert($name, $arguments);
+    }
+
+    /**
      * Set custom alert
      *
      * @param array $message
