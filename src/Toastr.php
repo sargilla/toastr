@@ -78,11 +78,11 @@ class Toastr {
     }
 
     /**
-     * Set error alert
+     * Set danger alert
      *
      * @return $this
      */
-    public function error()
+    public function danger()
     {
         return $this->message(func_get_args(), "danger");
     }
