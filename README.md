@@ -151,7 +151,4 @@ Toastr::error('We got an error!', 'But its not that important')->with(['importan
 
 ```
 
-``` php
-@include('toastr::alerts')
-```
 
