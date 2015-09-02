@@ -3,9 +3,11 @@
     "description": "Toastr - Flash Messages for Laravel 5",
     "keywords": [
         "Toastr",
-        "Flash Messages"
+        "Flash Messages",
+        "Laravel 5",
+        "Alerts"
     ],
-    "homepage": "https://github.com/thephpartdarek/toastr",
+    "homepage": "https://github.com/artdarek/toastr",
     "license": "MIT",
     "authors": [
         {
