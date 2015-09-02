@@ -11,8 +11,6 @@
 
             {{ $alert['message'] }}
 
-            @if(array_get($alert,'params.important')) (This alert is marked as important) @endif
-
         </div>
 
     @endforeach
