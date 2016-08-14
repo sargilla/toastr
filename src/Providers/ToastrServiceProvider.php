@@ -15,7 +15,7 @@ class ToastrServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bindShared('toastr', function()
+        $this->app->singleton('toastr', function()
         {
             return $this->app->make('\Artdarek\Toastr\Toastr');
         });    
