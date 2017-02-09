@@ -22,6 +22,16 @@ Use [composer](http://getcomposer.org) require command to install this package.
 $ composer require artdarek/toastr
 ```
 
+#### Laravel version Compatibility
+
+ Laravel  | Package
+:---------|:----------
+ 5.0.x    | 1.0.x
+ 5.1.x    | 1.0.x
+ 5.2.x    | 2.0.x
+ 5.3.x    | 2.0.x
+ 5.4.x    | 2.0.x
+
 #### Adding package to composer.json file manually
 
 Add package to your composer.json file:
