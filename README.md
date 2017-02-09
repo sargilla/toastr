@@ -38,7 +38,7 @@ Add package to your composer.json file:
 
 ```
 "require": {
-  "artdarek/toastr": "dev-master"
+  "artdarek/toastr": "2.0.*"
 }
 ```
 
