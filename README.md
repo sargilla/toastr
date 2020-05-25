@@ -19,7 +19,7 @@ mark some of them as important etc.
 Use [composer](http://getcomposer.org) require command to install this package.
 
 ``` bash
-$ composer require artdarek/toastr
+$ composer require sargilla/toastr
 ```
 
 #### Laravel version Compatibility
@@ -31,14 +31,15 @@ $ composer require artdarek/toastr
  5.2.x    | 2.0.x
  5.3.x    | 2.0.x
  5.4.x    | 2.0.x
-
+ 7.0.x    | 2.0.x
+ 
 #### Adding package to composer.json file manually
 
 Add package to your composer.json file:
 
 ```
 "require": {
-  "artdarek/toastr": "2.0.*"
+  "sargilla/toastr": "2.0.*"
 }
 ```
 
@@ -54,14 +55,14 @@ Add the Toastr Service Provider to your config in ``config/app.php``:
 
 ```php
 'providers' => array(
-	Artdarek\Toastr\Providers\ToastrServiceProvider::class,
+	Sargilla\Toastr\Providers\ToastrServiceProvider::class,
 ),
 ```
 and create an alias:
 
 ```php
 'aliases' => [
-    'Toastr'    => Artdarek\Toastr\Facades\Toastr::class,
+    'Toastr'    => Sargilla\Toastr\Facades\Toastr::class,
 ],
 ```
 

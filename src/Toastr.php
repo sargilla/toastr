@@ -1,6 +1,6 @@
 <?php 
 
-namespace Artdarek\Toastr;
+namespace Sargilla\Toastr;
 
 use Illuminate\Session\Store;
 

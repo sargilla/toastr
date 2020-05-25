@@ -1,5 +1,5 @@
 {
-    "name": "artdarek/toastr",
+    "name": "sargilla/toastr",
     "description": "Toastr - Flash Messages for Laravel 5",
     "keywords": [
         "Toastr",
@@ -7,13 +7,13 @@
         "Laravel 5",
         "Alerts"
     ],
-    "homepage": "https://github.com/artdarek/toastr",
+    "homepage": "https://github.com/sargilla/toastr",
     "license": "MIT",
     "authors": [
         {
-            "name": "Dariusz Prząda",
-            "email": "artdarek@gmail.com",
-            "homepage": "http://www.przada.pl",
+            "name": "Santiago Argilla",
+            "email": "sargillak@gmail.com",
+            "homepage": "http://www.estudiorompecabezas.com.ar",
             "role": "Developer"
         }
     ],
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Artdarek\\Toastr\\": "src"
+            "Sargilla\\Toastr\\": "src"
         }
     },
     "minimum-stability": "dev",

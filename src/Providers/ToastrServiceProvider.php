@@ -1,6 +1,6 @@
 <?php
 
-namespace Artdarek\Toastr\Providers;
+namespace Sargilla\Toastr\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -17,7 +17,7 @@ class ToastrServiceProvider extends ServiceProvider
     {
         $this->app->singleton('toastr', function()
         {
-            return $this->app->make('\Artdarek\Toastr\Toastr');
+            return $this->app->make('\Sargilla\Toastr\Toastr');
         });    
     }
 
